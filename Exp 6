@@ -1,0 +1,13 @@
+# Students appearing for exams
+cet = {"Alice", "Bob"}
+jee = {"Bob", "Eve"}
+neet = {"Alice", "Eve"}
+
+# Union
+print("All students:", cet | jee | neet)
+
+# Intersection
+print("CET and JEE students:", cet & jee)
+
+# Difference
+print("Only CET students:", cet - jee)
